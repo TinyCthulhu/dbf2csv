@@ -41,7 +41,7 @@ Commands:
   converts file c:\sourcedir\Somefile.dbf and places the result as file d:\resultdir\Newfile.csv, using a `,` character as a column delimiter
 
 ### Remarks:
-  - omiting \<destination_name> results in creating result file with same filename as source file and .csv extension
+  - omiting \<destination_name> creates result file with same filename as source file and .csv extension
   - commands are allowed either at the beginning or end of the parameter string
   - disabling transliteration (-t) preserves original strings, paired with ascii encoding (-ea) usually helps with poorly (or exotically) encoded dbf files
   - recovery (-r) command adds new "deleted" column in the resulting files
