@@ -1,0 +1,19 @@
+Examples: 
+  dbf2csv Somefile.dbf
+  converts a single source file Somefile.dbf to Somefile.csv
+
+  dbf2csv c:\sourcedir\*.dbf
+  converts all dbf files from c:\sourcedir\ and places the resulting files in the same directory
+
+  dbf2csv c:\sourcedir\*.dbf d:\resultdir\ -o
+  converts all dbf files from c:\sourcedir\ and places the resulting files in d:\resultdir\ replacing existing files
+
+  dbf2csv -d, c:\sourcedir\Somefile.dbf d:\resultdir\Newfile.csv
+  converts file c:\sourcedir\Somefile.dbf and places the result as file d:\resultdir\Newfile.csv, using a ,(comma) character as a column delimiter
+
+Remarks:
+  - commands are allowed either at the beginning or end of the parameter string
+  - disabling transliteration (-t) preserves original strings, paired with ascii encoding (-ea) usually helps with poorly (or exotically) encoded dbf files
+  - recovery (-r) command adds new "deleted" column in the resulting files
+  - data containing delimiter converts in to a quoted strings
+  

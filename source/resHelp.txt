@@ -1,0 +1,11 @@
+Usage: dbf2csv [<commands>] <source_name> [<destination_name>] [<commands>]
+
+<Commands>
+  -help, -h : help
+  -t  : disable character transliteration for text columns
+  -o  : overwrite csv file if exists
+  -r  : read records marked as deleted  
+  -d# : change default (;) delimiter character in output csv file to new one (#)
+  -ea : force ascii encoding for output file
+  -eu : force utf8 encoding for output file
+  -ee : force ansi encoding for output file
