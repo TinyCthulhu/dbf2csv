@@ -8,7 +8,7 @@ Application allows:
 - reading records marked as deleted
 
 ## How to use
-open console an type:
+open console and type:
 
 **dbf2csv** [\<commands>] <source_name> [<destination_name>] [\<commands>]
 ```
