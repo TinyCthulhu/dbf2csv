@@ -4,7 +4,7 @@ This windows console application lets you convert dbf tables to character delimi
 Application allows:
 - single file convertions
 - batch convertions (with use of wildcards *?)
-- generation .csv files using ascii, ansi or utf8 encoding
+- generation of .csv files using ascii, ansi or utf8 encoding
 - reading records marked as deleted
 
 ## How to use
